@@ -1,0 +1,7 @@
+mol new mol.xyz 
+topo retypebonds 
+topo guessangles 
+topo guessdihedrals 
+topo guessimpropers 
+topo writelammpsdata mol.data 
+mol delete all 
