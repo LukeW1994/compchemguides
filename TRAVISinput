@@ -38,3 +38,5 @@ proc
 ! How many time steps to use (from this position on)? [all] 
 
 ! Use every n-th time step from the trajectory? [1] 
+
+ /projects/sn29/apps/travis/exe/travis -p traj.lmp -i input.txt 
